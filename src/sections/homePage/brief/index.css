@@ -1,0 +1,75 @@
+/* # SCSS */
+/* @import "~react-image-gallery/styles/scss/image-gallery.scss"; */
+
+/* # CSS */
+/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
+@import url('../../../assets/css/font.css');
+
+.brief-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* margin-top:-25px; */
+    
+}
+.brief-content{
+    width:50%;
+    overflow: hidden;
+    padding: 5% 10%;
+    background: linear-gradient(to bottom,#fefefe, #f7f7f7);
+    ;
+}
+.brief-slider-container{
+    width:45%;
+    height:100vh;
+    /* transform: rotate(90deg); */
+}
+.brief-heading{
+    /* font-family: 'MadaniArabic-SemiBold'; */
+    font-family:"Roboto";
+    font-size: 31px;
+    line-height: 40px;
+    /* letter-spacing: -0.78px; */
+    color:#242424;
+    font-weight: bold;
+    
+}
+.brief-paragraph{
+    font-family:"Roboto";
+    font-size: 16px;
+    line-height: 30px;
+    /* letter-spacing: -0.5px; */
+    color:#242424;
+    font-weight: 300;
+}
+.brief-btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 0px 20px #ccc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: white;
+}
+.brief-btn-text{
+    color: #121212;
+    text-decoration: none;
+    font-family: 'Roboto';  
+    transition: 0.3s all ease-in-out ; 
+}
+
+.brief-btn-text:hover{
+    color: #121212;
+}
+
+.brief-btn:hover{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px #ccc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #121212;
+}

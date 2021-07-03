@@ -1,0 +1,24 @@
+.vertical-carousel-btn-up{
+    position:absolute;
+    right:2vw;
+    padding:  10px 6px;
+    margin-top: 21%;
+    z-index:300; 
+    background-color:rgba(255,255,255,0.3);
+    transition: 0.3s all ease-in-out;
+
+}
+
+
+.vertical-carousel-btn-down{
+    position:absolute;
+    padding:  10px 6px;
+    right:2vw;
+    z-index:300;
+    margin-top: -23%;
+    background-color:rgba(255,255,255,0.3);
+    transition: 0.3s all ease-in-out;
+}
+.vertical-carousel-btn-down:hover, .vertical-carousel-btn-up:hover{
+    background-color:rgba(255,255,255,0.6);
+}

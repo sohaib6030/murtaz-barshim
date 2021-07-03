@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Ginebra';
+    src: url('../fonts/Ginebra.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'MadaniArabic-Regular';
+    src: url('../fonts/MadaniArabic-Regular.woff') format('woff'),
+}
+@font-face {
+    font-family: 'MadaniArabic-Light';
+    src: url('../fonts/MadaniArabic-Light.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'MadaniArabic-SemiBold';
+    src: url('../fonts/MadaniArabic-SemiBold.woff2') format('woff2'),
+}

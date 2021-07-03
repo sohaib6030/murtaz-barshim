@@ -1,0 +1,186 @@
+
+@import url('../../../assets/css/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+.banner-container{
+    overflow: hidden;
+   
+}
+.banner-content-container{
+    position: absolute;
+    top:0%;
+    padding-top:8% ;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    /* display: flex; */
+}
+.banner-bg{
+    height: 85vh;
+    width: 112%;
+    object-fit: cover;
+}
+.name-img{
+    height: 18vh;
+    width: 80vw;
+    /* position: absolute; */
+    margin-left: 150px;
+    margin-top: -100px;
+    margin-bottom: 150px;
+}
+
+
+.banner-title{
+    font-size: 8vw;
+    font-family:"Ginebra";  
+    text-transform: uppercase; 
+    text-align: center;
+    /* background-color: rebeccapurple; */
+    margin-top: 0;
+}
+.banner-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40%;
+    align-items: flex-start;
+}
+.center-person-img{
+    height: 47vh;
+    margin-top: -100px;
+}
+.left-img{
+    height: 20vh;
+    margin-top: -60px;
+    
+}
+.right-img{
+    height: 20vh;
+    margin-top: -60px;
+}
+.menu-container{
+ background-color: white;   
+ position: absolute;
+ /* box-shadow: 5px 10px #888888; */
+ box-shadow:0px 0px 20px  rgba(0,0,0,0.4);
+ height: 80px;
+ width: 80%;
+ border-radius: 10px;
+ z-index: 1000;
+ margin-left: 10%;
+ margin-right: 10%;
+ 
+ /* display: flex; */
+ /* align-self: center; */
+}
+
+.banner-sponser-container{
+
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    margin-top:40px;
+}
+.sponser-box{
+    background-color: red;
+    height: 24vh;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    /* width: 300px; */
+}
+.sponser-box img{
+    transition: 0.3s all ease-in-out;
+    
+}
+.sponser-box img:hover{
+    transform: scale(1.1);
+}
+.chevrolet{
+    background-color: #e6ac39;
+}
+.nike, .richard-mille,.oakley{
+    background-color: #000000;
+}
+.red-bull{
+    background-color: #d2293b;
+}
+.google-cloud{
+background-color: #fff;
+}
+
+.menu-container{
+    height: 80px;
+    width: 64%;
+    margin-left: 15%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right:60px;
+    /* padding:5px 25px ; */
+}
+.menu-link-container{
+    display: flex;
+   
+    /* height: 100%; */
+    /* align-items: center; */
+}
+.menu-link-btn{
+    width: 100px;
+    /* padding-left: 6%; */
+    display: flex;
+    /* background-color: royalblue; */
+    /* border:1px solid salmon; */
+    align-items: center;
+    margin-left: -10px;
+    justify-content: center;
+}
+.menu-link{
+    text-decoration: none;
+    color: #121212;
+    font-family:"Roboto";
+    font-size: 13px;
+    align-items: flex-start;
+    /* align-self: center; */
+    font-weight: 400;
+   text-transform: uppercase;
+   transition: 0.3s ease-in-out;
+}
+.menu-link:hover{
+    font-weight:bolder;
+    font-size: 15px;
+    /* margin-left: -10px; */
+    color: #121212;
+}
+
+.menu-btn-container{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-icon{
+    /* background-color: #f6f6f6; */
+    color: rgba(0,0,0,0.8);
+}
+.menu-icon-btn{
+    background-color: #f6f6f6;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    /* padding: '2%'; */
+}
+
+.menu-icon-btn:hover{
+    background-color: #ccc;
+}
+

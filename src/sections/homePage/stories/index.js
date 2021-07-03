@@ -62,7 +62,7 @@ const Stories = () => {
                     <p className="card-title">{item.title}</p>
                     <p className="card-description">{item.description}</p>
                     <div className="story-card-btn">
-                        <a className="story-card-btn-text" href={"#"}>Read More</a>
+                        <p className="story-card-btn-text">Read More</p>
                     </div>
                 </div>
             </div>

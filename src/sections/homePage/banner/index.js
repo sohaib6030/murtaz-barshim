@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'  
 import bgImg from '../../../assets/home/layer2.jpg'
 import leftSponer from '../../../assets/home/Group23.png'
 import person from '../../../assets/home/person.png'
@@ -11,6 +11,7 @@ import name from '../../../assets/home/name.PNG'
 import Redbulllogo from '../../../assets/sponsers/Redbulllogo.png'
 import Richardmille from '../../../assets/sponsers/Richardmille.png'
 import { FaFacebookF ,FaTwitter, FaInstagram,FaYoutube} from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 
 import './index.css'
 
@@ -26,27 +27,27 @@ const Banner = () => {
           <img className={'center-person-img'} src={person} />
           <img className={'right-img'} src={logoEng} />
         </div>
-        <div className='menu-container'>
-          <div className='menu-link-container row'>
-              <div className="menu-link-btn col-sm-12">
+        <div className='menu-container'> 
+          <div className='menu-link-container'>
+              <div className="menu-link-btn">
                 <a  className='menu-link' href='#'>Home</a>
               </div>
-              <div className="menu-link-btn col-md-12">
-                <a  style={{marginLeft:-20}} className='menu-link' href='#'>Career</a>
+              <div className="menu-link-btn">
+                <Link className='menu-link' to='/Career'>Career</Link>
               </div>
-              <div className="menu-link-btn col-md-12">
-                <a style={{marginLeft:-25}} className='menu-link' href='#'>Achievments</a>
+              <div className="menu-link-btn">
+                <a className='menu-link' href='#'>Achievments</a>
               </div>
-              <div className="menu-link-btn col-md-12">
+              <div className="menu-link-btn">
                 <a className='menu-link' href='#'>Sponsors</a>
               </div>
-              <div className="menu-link-btn col-md-12">
+              <div className="menu-link-btn">
                 <a className='menu-link' href='#'>Partner</a>
               </div>
-              <div className="menu-link-btn col-md-12">
+              <div className="menu-link-btn">
                 <a className='menu-link' href='#'>Gallery</a>
               </div>
-              <div className="menu-link-btn col-md-12">
+              <div className="menu-link-btn">
                 <a className='menu-link' href='#'>Connect</a>
               </div>
           </div>
@@ -70,7 +71,7 @@ const Banner = () => {
             <img src={Chevroletlogo} />
           </div>
           <div className='sponser-box nike  col-md-2 col-sm-12'>
-            <img src={nike} />
+            <img src={nike} /> 
           </div>
           <div className='sponser-box red-bull col-md-2 col-sm-12'>
             <img src={Redbulllogo} />

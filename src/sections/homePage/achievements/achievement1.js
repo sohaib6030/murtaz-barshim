@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react'  
 import './index.css'
 import img1 from '../../../assets/home/homeAchievement1.png'
 import img2 from '../../../assets/home/homeAchievement2.png'
@@ -17,7 +17,7 @@ export class Achievement1 extends Component {
           flexDirection: 'row',
           justifyContent: 'space-between',
           overflow:"clip",
-          height:'120vh'
+          height:'110vh'
         }}
         className='achievment1-container'
       >
@@ -28,7 +28,7 @@ export class Achievement1 extends Component {
           <div style={{padding:'5%'}}>
             <p className='achievment1-title'>Mutaz</p>
             <p className='achievment1-subtitle'>
-              <span>Burshim</span>
+              <span>Barshim</span>
             </p>
 
             <div
@@ -84,6 +84,48 @@ export class Achievement1 extends Component {
               <img src={logo} style={{margin:'50px'}}/>
           </div>
           
+{/*          <div className="">
+            <div className="achievement1-container row">
+              <div className="column">
+                <div className="item">
+                  <div className="pic">
+                    <img src={img1} />
+                  </div>
+                  <div className="text">
+                    <p className="h3" >Gold Medal</p>
+                    <p className="p1">Doha World Championship 2019</p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="pic">
+                    <img src={img1} />
+                  </div>
+                  <div className="text">
+                    <p className="h3" >Gold Medal</p>
+                    <p className="p1">Doha World Championship 2019</p>
+                  </div>
+                </div>
+              </div>
+              <div className="column">
+              <div className="item">
+                  <div className="pic">
+                    <img src={img1} />
+                  </div>
+                  <div className="text">
+                    <p className="h3" >Gold Medal</p>
+                    <p className="p1">Doha World Championship 2019</p>
+                  </div>
+                </div>
+                <div className="item">
+                <p className="h3" >Gold Medal</p>
+                <p className="p1">Doha World Championship 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+*/}
+
 
           <div className='achivement1-main-container2 row'>
             <div className='col-md-6 row'>
@@ -91,26 +133,29 @@ export class Achievement1 extends Component {
                 <img
                   src={img1}
                   style={{
-                    width: 200,
+                    width: 150,
                     objectFit: 'contain',
-                    height: 100,
+                    height: 75,
                     resizeMode: 'contain'
                   }}
                 />
               </div>
+              
+
               <div className='col-md-6 col-sm-12' style={{marginLeft:-18}}>
                 <p className="h3" >Gold Medal</p>
                 <p className="p1">Doha World Championship 2019</p>
               </div>
             </div>
+            {/* 1st Achievemet ends */}
             <div className='col-md-6 row' >
               <div className='col-md-6 col-sm-12'>
                 <img
                   src={img3}
                   style={{
-                    width: 200,
+                    width: 150,
                     objectFit: 'contain',
-                    height: 100,
+                    height: 75,
                     resizeMode: 'contain'
                   }}
                 />
@@ -120,15 +165,18 @@ export class Achievement1 extends Component {
                 <p className="p1">Rio Olympics 2019</p>
               </div>
             </div>
+
+            {/* 2nd Achievemet ends */}
+          
           <div className='row'>
             <div className='col-md-6 row'>
               <div className='col-md-6 col-sm-12'>
                 <img
                   src={img2}
                   style={{
-                    width: 200,
+                    width: 150,
                     objectFit: 'contain',
-                    height: 100,
+                    height: 75,
                     resizeMode: 'contain'
                   }}
                 />
@@ -138,23 +186,26 @@ export class Achievement1 extends Component {
                 <p className="p1">London World Champoinship 2017</p>
               </div>
             </div>
+
+            {/* 3rd Achievemet ends */}
             <div className='col-md-6 row'>
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12'> 
                 <img
                   src={img4}
                   style={{
-                    width: 200,
+                    width: 150,
                     objectFit: 'contain',
-                    height: 100,
+                    height: 75,
                     resizeMode: 'contain'
                   }}
                 />
               </div>
               <div className='col-md-6 col-sm-12' style={{marginLeft:-18}}>
-                <p className="h3" >Gold Medal</p>
+                <p className="h3" >Bronze Medal</p>
                 <p className="p1">London Olympics 2012</p>
               </div>
             </div>
+            {/* 4th Achievemet ends */}
           </div>
           </div>
         </div>
@@ -168,7 +219,7 @@ export class Achievement1 extends Component {
                 <div className="num-text">
                     Golden Medal
                 </div>
-            </div>
+            </div> 
             <div className="achivement1-box">
                 <div className="num-circle">
                     <div className="num2">
@@ -192,10 +243,10 @@ export class Achievement1 extends Component {
             <img src={Image9} style={{position:"relative",
             // height:'100%',
             right:'43%',
-             width:'200%', resizeMode:'contain', bottom:'11%'}}/>
-            <div className="dark-btn">
-          <a className="dark-btn2-text" href={"#"}>Discover More</a>
-        </div>
+             width:'200%', resizeMode:'contain', bottom:'29%'}}/>
+            <div className="white-btn">
+              <a className="white-btn2-text" href={"#"}>Discover More</a>
+            </div>
         </div>
       </div>
     )

@@ -1,0 +1,81 @@
+.contact-container{
+    position: relative;
+    height: 100vh;
+    background-color: #111;
+    background:url('../../../assets/Contact/pic.png');
+    background-size:contain;
+    background-position: center;
+    background-position-x:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-container .intro{
+    min-width: 40%;
+    text-align: right;
+}
+
+.contact-container .intro h1{
+    font-size: 100px;
+    color: white;
+}
+
+.contact-container .intro p{
+    color: white;
+}
+
+.contact-container .social-connect{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.contact-container .social-connect .icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.contact-container .social-connect .icon i{
+    color: black;
+    text-align: center;
+}
+
+.contact-container .contacts{
+    width: 40%;
+}
+
+.contact-container .contacts .item{
+    display: flex;
+}
+
+.contact-container .contacts .item .icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact-container .contacts .item i{
+    color: black;
+    text-align: center;
+}
+
+.contact-container .contacts .item p{
+    color: white;
+    font-size: 18px;
+}

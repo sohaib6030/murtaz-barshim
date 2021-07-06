@@ -21,7 +21,7 @@ const images = [
   return (
     <div className={'brief-container'} style={{overflow:'hidden'}}>
       <div className={'brief-content'} >
-        <p className="brief-heading">
+       <p className="brief-heading">
           Mutaz Barshim is a Qatari high jumping world champion, holder of the
           Asian record and, at 2.43m, has registered the second highest jump in
           history.

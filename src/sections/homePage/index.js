@@ -3,6 +3,7 @@ import Achievement1 from './achievements/achievement1'
 import Banner from './banner'
 import Brief from './brief'
 import Stories from './stories'
+import Contacts from './contact/contact'
 
 const HomePage = () => {
     return (
@@ -13,8 +14,9 @@ const HomePage = () => {
             <Achievement1/>
             <div style={{zIndex:300}}>
                 <Stories/>
-
             </div>
+            <div style={{marginTop:'80vh'}}></div>
+            <Contacts />
         </div>
 
     )

@@ -1,0 +1,59 @@
+/*------------------------ EXTRA BUTTON ---------------------------*/
+
+.menu-btn{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.menu-btn span{
+    height: 2px;
+    width: 20px;
+    display: block;
+    background-color: black;
+    position: relative;
+}
+
+.menu-btn span::before,
+.menu-btn span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-btn span::before{
+    transform: translateY(-4px);
+}
+
+.menu-btn .nav-toggler.active span::before{
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+}
+
+.menu-btn span::after{
+    transform: translateY(4px);
+}
+
+.menu-btn:hover .menu-btn span::before{
+    transform: translateX(4px);
+}
+
+.menu-btn:hover .menu-btn span::after{
+    transform: translateX(4px);
+}

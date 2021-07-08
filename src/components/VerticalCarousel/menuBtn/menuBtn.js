@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import './index.css'
+import {Link} from 'react-router-dom'
 
 class menuBtn extends Component{
     render(){ 
         return(
-            <div className="menu-btn">
-                <button type="button" class="nav-toggler">
+
+            <div className="menu-btn" >
+                <Link to="/Menu" className="menu">
                     <span></span>
-                </button>
+                </Link>
             </div>
         )
     }

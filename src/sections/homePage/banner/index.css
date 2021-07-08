@@ -93,14 +93,15 @@
 .banner-sponser-container{
 
     display: flex;
+    height: 35vh;
     flex-direction: row;
-    background-color: green;
+    background-color: white;
  
 }
 .sponser-box{
     width: calc((100/6));
-    background-color: red;
-    height: 24vh;
+    /* background-color: red; */
+    height: 26vh;
     display: flex;
     padding-top: 20px;
     align-items: center;

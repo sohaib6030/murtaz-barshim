@@ -30,26 +30,27 @@ const Banner = () => {
         <div className='menu-container'> 
           <div className='menu-link-container'>
               <div className="menu-link-btn">
-                <a  className='menu-link' href='#'>Home</a>
+                <Link className='menu-link' to='/'>Home</Link>
               </div>
               <div className="menu-link-btn">
                 <Link className='menu-link' to='/Career'>Career</Link>
               </div>
               <div className="menu-link-btn">
-                <a className='menu-link' href='#'>Achievments</a>
+                <Link className='menu-link' to='/Achievement10'>Achievments</Link>
               </div>
               <div className="menu-link-btn">
-                <a className='menu-link' href='#'>Sponsors</a>
+                <Link className='menu-link' to='/Sponsors1'>Sponsors</Link>
               </div>
               <div className="menu-link-btn">
-                <a className='menu-link' href='#'>Partner</a>
+                <Link className='menu-link' to='/Stories1'>Stories</Link>
               </div>
               <div className="menu-link-btn">
-                <a className='menu-link' href='#'>Gallery</a>
+                <Link className='menu-link' to='/Gallery'>Gallery</Link>
               </div>
               <div className="menu-link-btn">
-                <a className='menu-link' href='#'>Connect</a>
+                <Link className='menu-link' to='/Connect'>Connect</Link>
               </div>
+              
           </div>
           <div className='menu-btn-container '>
             <div className='menu-icon-btn'>

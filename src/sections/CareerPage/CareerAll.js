@@ -9,7 +9,6 @@ class CareerAll extends Component{
         return(
             <div>
                 {<Career1 />}
-        
                 {<Career2 />}
                 {<Career3 />}
             </div>

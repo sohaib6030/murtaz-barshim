@@ -8,12 +8,13 @@
     background-position-x:80%;
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .contact-container .intro{
     min-width: 40%;
     text-align: right;
+    /* margin-right: 10%; */
 }
 
 .contact-container .intro h1{
@@ -43,6 +44,11 @@
     justify-content: center;
     align-items: flex-start;
     font-size: 24px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-container .social-connect .icon:hover{
+    background-color: black;
 }
 
 .contact-container .social-connect .icon i{
@@ -52,6 +58,7 @@
 
 .contact-container .contacts{
     width: 40%;
+    margin-left: 10%;
 }
 
 .contact-container .contacts .item{
@@ -68,7 +75,13 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    transition: 0.3s ease-in-out;
 }
+
+/* .contact-container .contacts .item:hover{
+    background-color: black;
+    color: white;
+} */
 
 .contact-container .contacts .item i{
     color: black;
@@ -78,4 +91,19 @@
 .contact-container .contacts .item p{
     color: white;
     font-size: 18px;
+}
+
+.connect-social-icon-component{
+ transition: all 0.3s ease-in-out;
+ padding: 4%;
+   
+}
+
+.connect-social-icon-component{
+    color: black;
+}
+.connect-social-icon-component:hover{
+    background-color: black;
+    color: white;
+    /* padding: 4%; */
 }

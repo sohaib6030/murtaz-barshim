@@ -1,6 +1,8 @@
 import React from 'react'
 import './index.css'
 import img from '../../../assets/home/weightLifting.PNG'
+import {Link} from 'react-router-dom'
+
 const Stories = () => {
     const data=[
         {
@@ -62,7 +64,7 @@ const Stories = () => {
                     <p className="card-title">{item.title}</p>
                     <p className="card-description">{item.description}</p>
                     <div className="story-card-btn">
-                        <p className="story-card-btn-text">Read More</p>
+                        <Link to="/stories2" ><p className="story-card-btn-text">Read More</p></Link>
                     </div>
                 </div>
             </div>

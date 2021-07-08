@@ -1,0 +1,130 @@
+/* ---------------------------- SPONSOR-1 ---------------------------------------*/
+
+.sponsor1-container{
+    
+}
+
+.sponsor1-container-content{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.sponsor1-container-content .sponsor-item{
+    height: 50vh;
+    width: calc((100%/3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor1-container .sponsor-item img, .sponsor1-container .sponsor-item Link img{
+    width: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.sponsor1-container .sponsor-item img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.chevrolet{
+    background-color: #e6ac39;
+}
+.nike, .richard-mille,.oakley{
+    background-color: #000000;
+}
+.red-bull{
+    background-color: #d2293b;
+}
+.google-cloud{
+background-color: #fff;
+}
+
+/* ---------------------------- SPONSOR-2 ---------------------------------------*/
+.sponsor1-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.sponsor1-container .back-button{
+    width: 5%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor1-container .content{
+    width: 55%;
+    padding: 5%;
+    text-align: left;
+    overflow: scroll;
+}
+
+.sponsor1-container .content .heading{
+    padding-bottom: 10px;
+} 
+
+.sponsor1-container .content .image{
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.sponsor1-container .content .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sponsor1-container .content .double-image{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.sponsor1-container .content .double-image .image1{
+    min-width: 60%;
+    height: 35vh;
+}
+
+.sponsor1-container .content .double-image .image2{
+    width: 35%;
+    height: 35vh;
+}
+
+.sponsor1-container .content .double-image img{
+    width: 100%;
+}
+
+.sponsor1-container .content .text{}
+
+.sponsor1-container .next-video-button{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+}
+
+/* ---------------------------- SPONSOR-3 ---------------------------------------*/
+
+.sponsor3-container{
+    background: url('../../assets/sponser2/1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.sponsor3-container .logo{
+    text-align: right;
+    padding: 2%;
+}
+

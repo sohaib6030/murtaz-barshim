@@ -1,0 +1,43 @@
+/*--------------------- STORY PAGE-1 --------------------------------------------*/
+
+.singleStory-container{
+    width: 100%;
+    display: flex;
+}
+
+.content-container{
+    text-align: left;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 3%;
+    overflow: scroll;  
+    color: white;
+    background-color: black;  
+}
+
+.images{
+
+}
+
+.cross-btn{
+    display: inline-block;
+
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cross-btn i{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+
+}

@@ -1,42 +1,43 @@
 import React, { Component } from 'react'
 import './index.css'
+import { FaFacebookF ,FaTwitter, FaInstagram,FaYoutube ,FaPhone, FaGlobe, FaEnvelope } from 'react-icons/fa'
 
 class contact extends Component{
     render(){ 
         return(
             <div className="contact-container">
-                <div className="intro">
+                <div className="intro" style={{marginLeft:'-10%'}}>
                     <h1>Connect</h1>
                     <p>WITH THE MUTAZ TEAM</p>
                 </div>
 
-                <div className="social-connect"> 
+                <div className="social-connect"  style={{marginLeft:'12%'}}> 
                     <div class="icon">
                         <a href="https://www.facebook.com" target="_blank">
-                            <i class="fa fa-facebook"></i>
+                           <FaFacebookF  className="connect-social-icon-component"/>
                         </a>
                     </div>
                     <div class="icon">
                         <a href="https://www.twitter.com" target="_blank">
-                            <i class="fa fa-twitter"></i>
+                            <FaTwitter  className="connect-social-icon-component"/>
                         </a>
                     </div>
                     <div class="icon">
                         <a href="https://www.instagram.com/?hl=en" target="_blank">
-                            <i class="fa fa-instagram"></i>
+                           <FaInstagram  className="connect-social-icon-component"/>
                         </a>
                     </div>
                     <div class="icon">
                         <a href="https://www.youtube.com/" target="_blank">
-                            <i class="fa fa-youtube-play"></i>
+                            <FaYoutube  className="connect-social-icon-component"/>
                         </a>
                     </div>
                 </div>
 
-                <div className="contacts">
+                <div className="contacts"  style={{marginLeft:'15%'}}>
                     <div className="item">
                         <div className="icon">
-                            <i class="fa fa-phone"></i>
+                           <FaPhone/>
                         </div>
                         <div className="text">
                             <p>+974 6696 7125</p>
@@ -45,7 +46,7 @@ class contact extends Component{
 
                     <div className="item">
                         <div className="icon">
-                            <i class="fa fa-globe"></i>
+                          <FaGlobe/>
                         </div>
                         <div className="text">
                             <p>www.Mutazbarshim.Net</p>
@@ -54,7 +55,7 @@ class contact extends Component{
 
                     <div className="item">
                         <div className="icon">
-                            <i class="fa fa-envelope-o"></i>
+                           <FaEnvelope/>
                         </div>
                         <div className="text">
                             <p>contact@mutazbarshim.net</p>

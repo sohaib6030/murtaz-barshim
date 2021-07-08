@@ -8,7 +8,7 @@ import logo from '../../../assets/home/Group24.png'
 import Image9 from '../../../assets/home/Image9.png'
 
 
-export class Achievement1 extends Component {
+export class Achievement1 extends Component { 
   render () {
     return (
       <div
@@ -25,7 +25,7 @@ export class Achievement1 extends Component {
             <div className="col-md-8">
 
          
-          <div style={{padding:'5%'}}>
+          <div style={{padding:'5%',  textAlign:'left'}}>
             <p className='achievment1-title'>Mutaz</p>
             <p className='achievment1-subtitle'>
               <span>Barshim</span>
@@ -142,7 +142,7 @@ export class Achievement1 extends Component {
               </div>
               
 
-              <div className='col-md-6 col-sm-12' style={{marginLeft:-18}}>
+              <div className='col-md-6 col-sm-12' style={{marginLeft:-18, textAlign:'left'}}>
                 <p className="h3" >Gold Medal</p>
                 <p className="p1">Doha World Championship 2019</p>
               </div>
@@ -160,7 +160,7 @@ export class Achievement1 extends Component {
                   }}
                 />
               </div>
-              <div className='col-md-6 col-sm-12' style={{marginLeft:-30}}>
+              <div className='col-md-6 col-sm-12' style={{marginLeft:-30, textAlign:'left'}}>
               <p className="h3" >Silver Medal</p>
                 <p className="p1">Rio Olympics 2019</p>
               </div>
@@ -181,7 +181,7 @@ export class Achievement1 extends Component {
                   }}
                 />
               </div>
-              <div className='col-md-6 col-sm-12' style={{marginLeft:-18}}>
+              <div className='col-md-6 col-sm-12' style={{marginLeft:-18, textAlign:'left'}}>
               <p className="h3" >Gold Medal</p>
                 <p className="p1">London World Champoinship 2017</p>
               </div>
@@ -200,7 +200,7 @@ export class Achievement1 extends Component {
                   }}
                 />
               </div>
-              <div className='col-md-6 col-sm-12' style={{marginLeft:-18}}>
+              <div className='col-md-6 col-sm-12' style={{marginLeft:-18, textAlign:'left'}}>
                 <p className="h3" >Bronze Medal</p>
                 <p className="p1">London Olympics 2012</p>
               </div>
@@ -241,11 +241,14 @@ export class Achievement1 extends Component {
                 </div>
             </div>
             <img src={Image9} style={{position:"relative",
-            // height:'100%',
-            right:'43%',
-             width:'200%', resizeMode:'contain', bottom:'29%'}}/>
-            <div className="white-btn">
-              <a className="white-btn2-text" href={"#"}>Discover More</a>
+            // height:'120%',
+            height:500,
+            right:'40%',
+            //  width:'200%',
+              resizeMode:'contain', bottom:'16%'}}/>
+
+            <div className="white-btn" style={{marginTop:'-30vh'}}>
+              <a className="white-btn-text" href={"#"}>Discover More</a>
             </div>
         </div>
       </div>

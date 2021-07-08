@@ -2,14 +2,15 @@
   box-sizing: border-box;
 }
 
+/*
+
 .gallery.row { 
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 
 /* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 33%; /* IE10 */
+/*.column {
   flex: 33%;
   max-width: 33%;
   padding: 0 4px;
@@ -21,7 +22,10 @@
   width: 100%;
 }
 
+*/
+
 /* Responsive layout - makes a two column-layout instead of four columns */
+/*
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -29,8 +33,10 @@
     max-width: 50%;
   }
 }
+*/
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -39,3 +45,195 @@
   }
 }
 
+*/
+
+
+
+.gallery-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  flex-direction:row;
+  width: 100%;
+  height: 120vh;
+}
+
+/* ----------------------- ROW-1 --------------------------------*/
+.gallery-container .row1{
+  width: 100%;
+  justify-content:;
+  height: 35vh;
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row1 .double-img-vertical{
+  height: 40vh;
+  width: 9%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.row1 .double-img-horizontal{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row1 .double-img-vertical .square{
+  width: 100%;
+}
+
+.row1 .double-img-horizontal .square{
+  width: 50%;
+}
+
+.row1 .horizontal{
+  width: 15%;
+  
+}
+
+.row1 .vertical{
+  width: 8%;
+  
+}
+
+
+
+
+  /*
+  padding:30px 15px;
+  margin:10px 15px;
+  text-align: center;
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.gallery-container .row1 .column{
+  max-width: 33%;
+  height: 40vh;
+  display: flex; 
+  
+}
+
+.gallery-container .row1 img{
+  padding: 5px;
+}
+
+.row1 .square{
+  width: 50%;
+  padding-right: 5px;
+}
+
+.row1 .horizontal{
+  width: 100%;
+  
+}
+
+.row1 .vertical{
+  width: 33%;
+  
+}
+
+.row1 .double-img .horizontal{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.double-img .vertical{
+
+}
+*/
+/* ----------------------- ROW-2 --------------------------------*/
+.gallery-container .row2{
+  width: 100%;
+  justify-content:;
+  height: 35vh;
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row2 .double-img-vertical{
+  height: 40vh;
+  width: 9%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.row2 .double-img-horizontal{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row2 .double-img-vertical .square{
+  width: 100%;
+}
+
+.row2 .double-img-horizontal .square{
+  width: 50%;
+}
+
+.row2 .horizontal{
+  width: 15%;
+  
+}
+
+.row2 .vertical{
+  width: 8%;
+  
+}
+
+
+
+
+/* ----------------------- ROW-3 --------------------------------*/
+.gallery-container .row3{
+  width: 100%;
+  justify-content:center;
+  height: 35vh;
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row3 .double-img-vertical{
+  height: 40vh;
+  width: 9%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.row3 .double-img-horizontal{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row3 .double-img-vertical .square{
+  width: 100%;
+}
+
+.row3 .double-img-horizontal .square{
+  width: 50%;
+}
+
+.row3 .horizontal{
+  width: 15%;
+  
+}
+
+.row3 .vertical{
+  width: 8%;
+}

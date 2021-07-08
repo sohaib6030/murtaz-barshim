@@ -16,7 +16,7 @@ body{
 }
 .achievement1-side-container{
     /* float: right; */
-    background-color: rgba(120, 13, 47,0.9);
+    background-color: rgba(120, 13, 47,09);
     background-image: url('../../../assets/home/Group1.png');
     /* background-attachment: fixed; */
     background-position: center;
@@ -94,11 +94,11 @@ body{
     font-weight: 300;
 }
 
-.white-btn2{
+.white-btn{
     /* position:fixed; */
     width: 180px;
     display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     /* top:0vh; */
     height: 60px;
     border-radius: 10px;
@@ -108,18 +108,19 @@ body{
     display: flex;
     background: white;
 }
-.white-btn2-text{
+.white-btn-text{
     color: #121212;
     text-decoration: none;
     font-family: 'Roboto';  
-    font-weight: bold;
+    font-weight: 500;
     transition: 0.3s all ease-in-out ; 
 }
-.white-btn2-text:hover{
+.white-btn-text:hover{
     color: #121212;
+    cursor: pointer;
 }
 
-.white-btn2:hover{
+.white-btn:hover{
     width: 180px;
     height: 60px;
     border-radius: 10px;
@@ -129,6 +130,7 @@ body{
     display: flex;
     color: #121212;
     background-color: #f6f6f6;
+    /* background-color: blue; */
     cursor:pointer;
 }
 .achivement1-main-container2 .col-md-6.row{
